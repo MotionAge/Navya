@@ -2,9 +2,9 @@ import Image from "next/image"
 import { Award, Users, Clock, Heart, Shield, Star } from "lucide-react"
 
 export const metadata = {
-  title: "About Us - Navya Clinic",
+  title: "About Us - Navya ENT and Health Care Center",
   description:
-    "Learn about Navya Clinic and Dr. Ram, our experienced ENT specialist serving Kathmandu, Nepal.",
+    "Learn about Navya ENT and Health Care Center and Dr. Amit Jha, our experienced ENT specialist serving Kathmandu, Nepal.",
 }
 
 export default function About() {
@@ -40,7 +40,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Navya Clinic</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Navya ENT and Health Care Center</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Dedicated to providing exceptional ENT care with a personal touch. Our mission is to improve the quality of
             life for our patients through expert medical care and compassionate service.
@@ -54,7 +54,7 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  At Navya Clinic, we are committed to providing world-class ENT care that is accessible,
+                  At Navya ENT and Health Care Center, we are committed to providing world-class ENT care that is accessible,
                   affordable, and delivered with compassion. We believe that everyone deserves quality healthcare, and
                   we work tirelessly to make that a reality for our community in Kathmandu.
                 </p>
@@ -66,7 +66,7 @@ export default function About() {
               <div>
                 <Image
                   src="/placeholder.svg?height=400&width=500"
-                  alt="Navya Clinic interior"
+                  alt="Navya ENT and Health Care Center interior"
                   width={500}
                   height={400}
                   className="rounded-lg shadow-lg"
@@ -83,7 +83,7 @@ export default function About() {
               <div>
                 <Image
                   src="/placeholder.svg?height=500&width=400"
-                  alt="Dr. Ram - ENT Specialist"
+                  alt="Dr. Amit Jha - ENT Specialist"
                   width={400}
                   height={500}
                   className="rounded-lg shadow-lg"
@@ -91,12 +91,12 @@ export default function About() {
               </div>
               <div className="space-y-6">
                 <div>
-                  <h2 className="text-3xl font-bold text-gray-800 mb-2">Dr. Ram</h2>
+                  <h2 className="text-3xl font-bold text-gray-800 mb-2">Dr. Amit Jha</h2>
                   <p className="text-xl text-blue-600 font-semibold">ENT Specialist & Surgeon</p>
                 </div>
 
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Dr. Ram is a highly experienced ENT specialist with over 5 years of dedicated service in
+                  Dr. Amit Jha is a highly experienced ENT specialist with over 5 years of dedicated service in
                   the field of otolaryngology. He has successfully treated thousands of patients and is known for his
                   meticulous approach to diagnosis and treatment.
                 </p>
@@ -146,7 +146,7 @@ export default function About() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Core Values</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              These principles guide everything we do at Navya Clinic
+              These principles guide everything we do at Navya ENT and Health Care Center
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -165,7 +165,7 @@ export default function About() {
         {/* Why Choose Us */}
         <section className="bg-gradient-to-r from-teal-600 to-blue-600 rounded-2xl p-8 md:p-12 text-white">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Navya Clinic?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Navya ENT and Health Care Center?</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">

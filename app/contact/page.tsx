@@ -1,25 +1,31 @@
 "use client"
 
-import { MapPin, Phone, Clock } from "lucide-react"
+import { MapPin, Phone, Mail, Clock } from "lucide-react"
 
 export default function Contact() {
   const contactInfo = [
     {
       icon: Phone,
       title: "Phone",
-      details: ["+977-1-4567890", "+977-98XXXXXXXX"],
+      details: ["+977-9767475005"],
       description: "Call us during business hours",
+    },
+    {
+      icon: Mail,
+      title: "Email",
+      details: ["navyaenthealth@gmail.com"],
+      description: "Email us for any queries",
     },
     {
       icon: MapPin,
       title: "Address",
-      details: ["Navya Clinic", "Kathmandu, Nepal"],
+      details: ["Navya ENT and Health Care Center", "Balkhu, Kathmandu, Nepal"],
       description: "Visit us at our clinic",
     },
     {
       icon: Clock,
       title: "Hours",
-      details: ["Sun-Fri: 9:00 AM - 6:00 PM", "Saturday: Closed"],
+      details: ["Sun-Fri: 8:00 AM - 8:00 PM", "Saturday: Closed"],
       description: "Our operating hours",
     },
   ]
@@ -31,7 +37,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Contact Us</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Get in touch with Navya Clinic. We're here to help with all your ENT needs and answer any questions you
+            Get in touch with Navya ENT and Health Care Center. We're here to help with all your ENT needs and answer any questions you
             may have.
           </p>
         </div>
@@ -70,7 +76,7 @@ export default function Contact() {
               <p className="text-red-700 mb-3">For urgent ENT emergencies outside business hours:</p>
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-red-600" />
-                <span className="font-semibold text-red-800">+977-98XXXXXXXX</span>
+                <span className="font-semibold text-red-800">+977-9767475005</span>
               </div>
               <p className="text-sm text-red-600 mt-2">Available 24/7 for genuine emergencies only</p>
             </div>
@@ -79,14 +85,14 @@ export default function Contact() {
           {/* Map Section */}
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Find Us</h3>
-            <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
-                <p className="text-gray-600">Interactive Map</p>
-                <p className="text-sm text-gray-500">Navya Clinic, Kathmandu</p>
-              </div>
-            </div>
-            <div className="mt-4 p-4 bg-blue-50 rounded-lg">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2757.555445540288!2d85.29509631156536!3d27.68667412885377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18418484f5cb%3A0x47248c3878873e24!2sBalkhu%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1752057132897!5m2!1sen!2snp" 
+              width="550" 
+              height="500" 
+              style={{ border: 0 }} 
+              allowFullScreen loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade">
+              </iframe>
+             <div className="mt-4 p-4 bg-blue-50 rounded-lg">
               <p className="text-sm text-blue-800">
                 <strong>Directions:</strong> Located in the heart of Kathmandu, easily accessible by public transport.
                 Parking available on-site for patients.

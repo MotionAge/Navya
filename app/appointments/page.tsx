@@ -80,7 +80,7 @@ export default function Appointments() {
             </div>
             <h1 className="text-3xl font-bold text-gray-800 mb-4">Appointment Request Submitted!</h1>
             <p className="text-lg text-gray-600 mb-8">
-              Thank you for choosing Navya Clinic. We have received your appointment request and will contact you
+              Thank you for choosing Navya ENT and Health Care Center. We have received your appointment request and will contact you
               within 24 hours to confirm your appointment details.
             </p>
             <div className="bg-blue-50 p-6 rounded-lg mb-8">

@@ -48,7 +48,7 @@ export default function Home() {
                 Specialized Care for Your <span className="text-blue-600">Ears, Nose, and Throat</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Expert ENT services with compassionate care in the heart of Kathmandu. Your health and comfort are our
+                Expert ENT services with compassionate care in Kathmandu. Your health and comfort are our
                 top priorities.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -133,16 +133,16 @@ export default function Home() {
             <div>
               <Image
                 src="/placeholder.svg?height=400&width=500"
-                alt="Dr. Ram - ENT Specialist"
+                alt="Dr. Amit Jha - ENT Specialist"
                 width={500}
                 height={400}
                 className="rounded-lg shadow-lg"
               />
             </div>
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Meet Dr. Ram</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Meet Dr. Amit Jha</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                With over 5 years of experience in ENT medicine, Dr. Ram is dedicated to providing exceptional
+                With over 5 years of experience in ENT medicine, Dr. Jha is dedicated to providing exceptional
                 care for all ear, nose, and throat conditions. His expertise and compassionate approach have helped
                 thousands of patients in Nepal.
               </p>
@@ -181,11 +181,11 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <div className="flex items-center space-x-2">
               <Phone className="h-5 w-5" />
-              <span className="text-lg">+977-1-4567890</span>
+              <span className="text-lg">+977-9767475005</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="h-5 w-5" />
-              <span className="text-lg">Kathmandu, Nepal</span>
+              <span className="text-lg">Balkhu, Kathmandu, Nepal</span>
             </div>
           </div>
           <div className="mt-8">

@@ -2,7 +2,7 @@ import { Stethoscope, Ear, Wind, Zap, Scissors, TestTube } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "ENT Services - Navya Clinic",
+  title: "ENT Services - Navya ENT and Health Care Center",
   description:
     "Comprehensive ENT services including hearing tests, sinus treatment, allergy care, tinnitus management, and surgery consultations in Kathmandu.",
 }

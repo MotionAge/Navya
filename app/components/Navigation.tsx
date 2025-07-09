@@ -41,12 +41,10 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
           <img
             src="/logo.png" 
-            alt="Navya Clinic"
+            alt="Navya ENT and Health Care Center"
             className="h-20 w-20"
           />
         </Link>
-
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
