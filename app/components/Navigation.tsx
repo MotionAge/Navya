@@ -22,15 +22,15 @@ export default function Navigation() {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-1">
               <Clock className="h-4 w-4" />
-              <span>Sun-Fri: 9 AM - 6 PM</span>
+              <span>Sun-Fri: 8 AM - 8 PM</span>
             </div>
             <div className="flex items-center space-x-1">
               <Phone className="h-4 w-4" />
-              <span>+977-1-4567890</span>
+              <span>+977-9767475005</span>
             </div>
           </div>
           <div className="hidden md:block">
-            <span>📍 Kathmandu, Nepal</span>
+            <span>📍 Balkhu, Kathmandu, Nepal</span>
           </div>
         </div>
       </div>
