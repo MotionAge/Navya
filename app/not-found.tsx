@@ -45,11 +45,8 @@ export default function NotFound() {
             <Link href="/services" className="block text-blue-600 hover:text-blue-700">
               • Our ENT Services
             </Link>
-            <Link href="/appointments" className="block text-blue-600 hover:text-blue-700">
-              • Book an Appointment
-            </Link>
             <Link href="/contact" className="block text-blue-600 hover:text-blue-700">
-              • Contact Information
+              • Book an Appointment
             </Link>
           </div>
         </div>
