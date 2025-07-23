@@ -40,7 +40,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="flex items-center">
           <img
-            src="/logo.png" 
+            src="/navyalogo.png" 
             alt="Navya ENT and Health Care Center"
             className="h-20 w-20"
           />
