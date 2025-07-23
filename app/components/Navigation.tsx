@@ -47,7 +47,7 @@ export default function Navigation() {
         </Link>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
+            {/* {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -55,7 +55,7 @@ export default function Navigation() {
               >
                 {item.label}
               </Link>
-            ))}
+            ))} */}
             {/* <Link
               href="/appointments"
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
@@ -65,9 +65,9 @@ export default function Navigation() {
           </div>
 
           {/* Mobile menu button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+          {/* <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          </button> */}
         </div>
 
         {/* Mobile Navigation */}

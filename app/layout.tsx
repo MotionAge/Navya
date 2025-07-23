@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Navigation from "./components/Navigation"
 import WhatsAppFloat from "./components/WhatsAppFloat"
+import Footer from "./components/Footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -41,6 +42,7 @@ export default function RootLayout({
         <Navigation />
         <main className="min-h-screen">{children}</main>
         <WhatsAppFloat />
+        <Footer/>
       </body>
     </html>
   )
