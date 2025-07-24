@@ -241,8 +241,8 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">🚧 Website Under Construction 🚧</h1>
-          <h3 className="text-2xl md:text-5xl font-bold text-gray-800 mb-6">Contact Us</h3>
+          {/* <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">🚧 Website Under Construction 🚧</h1> */}
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">Contact Us</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Get in touch with Navya ENT and Health Care Center. We're here to help with all your ENT needs and answer any questions you
             may have.
